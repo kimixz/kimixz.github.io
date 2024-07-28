@@ -5,19 +5,20 @@ import { GeistMono } from 'geist/font/mono';
 import { Navbar } from './components/nav';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SandpackCSS } from './blog/[slug]/sandpack';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://leerob.io'),
   title: {
-    default: 'Kimya Khakzad Shahandashti',
-    template: '%s | Kimya Khakzad Shahandashti',
+    default: 'Lee Robinson',
+    template: '%s | Lee Robinson',
   },
-  description: 'Software Engineer',
+  description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Kimya Khakzad Shahandashti',
-    description: 'Software Engineer',
+    title: 'Lee Robinson',
+    description: 'Developer, writer, and creator.',
     url: 'https://leerob.io',
-    siteName: 'Kimya Khakzad Shahandashti',
+    siteName: 'Lee Robinson',
     locale: 'en_US',
     type: 'website',
   },
@@ -31,6 +32,14 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  twitter: {
+    title: 'Lee Robinson',
+    card: 'summary_large_image',
+  },
+  verification: {
+    google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
+    yandex: '14d2e73487fa6c71',
   },
 };
 
@@ -50,6 +59,9 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
+      <head>
+        <SandpackCSS />
+      </head>
       <body className="antialiased max-w-2xl mb-40 flex flex-col md:flex-row mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />

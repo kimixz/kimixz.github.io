@@ -9,15 +9,15 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 export const metadata: Metadata = {
   metadataBase: new URL('https://leerob.io'),
   title: {
-    default: 'Kimya Khakzad Shahandashti',
-    template: '%s | Kimya Khakzad Shahandashti',
+    default: 'Lee Robinson',
+    template: '%s | Lee Robinson',
   },
-  description: 'Software Engineer',
+  description: 'Developer, writer, and creator.',
   openGraph: {
-    title: 'Kimya Khakzad Shahandashti',
-    description: 'Software Engineer',
+    title: 'Lee Robinson',
+    description: 'Developer, writer, and creator.',
     url: 'https://leerob.io',
-    siteName: 'Kimya Khakzad Shahandashti',
+    siteName: 'Lee Robinson',
     locale: 'en_US',
     type: 'website',
   },
@@ -31,6 +31,14 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  twitter: {
+    title: 'Lee Robinson',
+    card: 'summary_large_image',
+  },
+  verification: {
+    google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
+    yandex: '14d2e73487fa6c71',
   },
 };
 
