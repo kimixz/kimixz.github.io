@@ -15,19 +15,18 @@ export default function Page() {
         </p>
         <div className="mt-4">
           <div className="flex space-x-4">
-          <a href="https://linkedin.com/in/kimya-khakzad" className="text-blue-700">
-              <FontAwesomeIcon icon={faLinkedin} className="h-8 w-8" />
-            </a>
             <a href="mailto:kimya@yorku.ca" className="text-red-500">
-              <FontAwesomeIcon icon={faEnvelope} className="h-8 w-8" />
+              <FontAwesomeIcon icon={faEnvelope} className="h-6 w-6" />
             </a>
-            <a href="https://scholar.google.ca/citations?user=Y4o4TxQAAAAJ&hl=en" className="text-blue-500">
-              <FontAwesomeIcon icon={faGoogle} className="h-8 w-8" />
+            <a href="https://scholar.google.com/citations?user=your-scholar-id" className="text-blue-500">
+              <FontAwesomeIcon icon={faGoogle} className="h-6 w-6" />
             </a>
-            <a href="https://github.com/kimixz" className="text-gray-800">
-              <FontAwesomeIcon icon={faGithub} className="h-8 w-8" />
+            <a href="https://github.com/your-github-username" className="text-gray-800">
+              <FontAwesomeIcon icon={faGithub} className="h-6 w-6" />
             </a>
-
+            <a href="https://linkedin.com/in/kimya-khakzad" className="text-blue-700">
+              <FontAwesomeIcon icon={faLinkedin} className="h-6 w-6" />
+            </a>
           </div>
         </div>
       </section>

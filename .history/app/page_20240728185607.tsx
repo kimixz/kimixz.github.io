@@ -1,7 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
-
 export default function Page() {
   return (
     <section className="max-w-3xl mx-auto p-4">
@@ -14,21 +10,21 @@ export default function Page() {
           During my research, I worked with assurance cases and am interested in Generative AI models and LLMs.
         </p>
         <div className="mt-4">
-          <div className="flex space-x-4">
-          <a href="https://linkedin.com/in/kimya-khakzad" className="text-blue-700">
-              <FontAwesomeIcon icon={faLinkedin} className="h-8 w-8" />
+          <h2 className="font-medium text-xl mb-4">Contact</h2>
+          <p className="prose prose-neutral dark:prose-invert">
+            <a href="mailto:kimya@yorku.ca" className="text-blue-500 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12h2a2 2 0 012 2v6a2 2 0 01-2 2h-2a2 2 0 01-2-2v-6a2 2 0 012-2zm-8 0h2a2 2 0 012 2v6a2 2 0 01-2 2H8a2 2 0 01-2-2v-6a2 2 0 012-2zm8-6h2a2 2 0 012 2v6a2 2 0 01-2 2h-2a2 2 0 01-2-2V8a2 2 0 012-2zm-8 0h2a2 2 0 012 2v6a2 2 0 01-2 2H8a2 2 0 01-2-2V8a2 2 0 012-2z" />
+              </svg>
+              kimya@yorku.ca
             </a>
-            <a href="mailto:kimya@yorku.ca" className="text-red-500">
-              <FontAwesomeIcon icon={faEnvelope} className="h-8 w-8" />
+            <a href="https://linkedin.com/in/kimya-khakzad" className="text-blue-500 flex items-center mt-2">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 8a6 6 0 00-12 0v8a6 6 0 0012 0V8zm-6-3a3 3 0 110 6 3 3 0 010-6zm9 12a5 5 0 00-10 0v1a5 5 0 0010 0v-1z" />
+              </svg>
+              linkedin.com/in/kimya-khakzad
             </a>
-            <a href="https://scholar.google.ca/citations?user=Y4o4TxQAAAAJ&hl=en" className="text-blue-500">
-              <FontAwesomeIcon icon={faGoogle} className="h-8 w-8" />
-            </a>
-            <a href="https://github.com/kimixz" className="text-gray-800">
-              <FontAwesomeIcon icon={faGithub} className="h-8 w-8" />
-            </a>
-
-          </div>
+          </p>
         </div>
       </section>
       

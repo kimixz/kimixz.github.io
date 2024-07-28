@@ -42,7 +42,7 @@ export default function Page() {
             <span className="block text-sm text-gray-600 dark:text-gray-400">Iranian Medical Computing (Jul 2020 - Feb 2021)</span>
           </h2>
           <ul className="list-disc ml-5 text-gray-700 dark:text-gray-300 space-y-2">
-            <li>Implemented an online 3D exhibition platform using <strong>React.js</strong> and <strong>Three.js</strong>, boosting user satisfaction by 70%.</li>
+            <li>Implemented an online 3D exhibition platform using<strong>React.js</strong> and <strong>Three.js</strong>, boosting user satisfaction by 70%.</li>
             <li>Developed an interactive web conferencing system featuring real-time video, audio, and text communication through <strong>WebRTC</strong> and <strong>Socket.io</strong> which handled more than 1000 users.</li>
           </ul>
         </div>
@@ -52,7 +52,7 @@ export default function Page() {
             <span className="block text-sm text-gray-600 dark:text-gray-400">Pheebs (Jun 2019 - May 2020)</span>
           </h2>
           <ul className="list-disc ml-5 text-gray-700 dark:text-gray-300 space-y-2">
-            <li>Implemented a mobile bank application for Maskan Bank using <strong>React Native</strong> and <strong>Redux</strong> which had more than 5000 users.</li>
+            <li>Implemented a mobile bank application for Maskan Bank using React Native and Redux which had more than 5000 users.</li>
           </ul>
         </div>
       </div>

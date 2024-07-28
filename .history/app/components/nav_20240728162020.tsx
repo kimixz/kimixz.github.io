@@ -5,10 +5,13 @@ const navItems = {
     name: 'Home',
   },
   '/work': {
-    name: 'Work Experience',
+    name: 'Work Experiences',
   },
   '/publications': {
-    name: 'Publication',
+    name: 'Publications',
+  },
+  '/contact': {
+    name: 'Contact',
   },
 };
 
