@@ -6,7 +6,7 @@ export default function Page() {
         <div className="space-y-4">
           <div className="p-4 border border-gray-300 rounded-lg">
             <h2 className="font-semibold">
-              <a href="https://dl.acm.org/doi/abs/10.1145/3650105.3652291" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">
+              <a  href="https://dl.acm.org/doi/abs/10.1145/3650105.3652291" target="_blank" rel="noopener noreferrer" className=" hover:underline">
                 Assessing the Impact of GPT-4 Turbo in Generating Defeaters for Assurance Cases
               </a>
             </h2>
@@ -14,7 +14,7 @@ export default function Page() {
           </div>
           <div className="p-4 border border-gray-300 rounded-lg">
             <h2 className="font-semibold">
-              <a href="https://arxiv.org/abs/2401.16633" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">
+              <a href="https://arxiv.org/abs/2401.16633" target="_blank" rel="noopener noreferrer" className=" hover:underline">
                 I came, I saw, I certified: some perspectives on the safety assurance of cyber-physical systems
               </a>
             </h2>
@@ -22,7 +22,7 @@ export default function Page() {
           </div>
           <div className="p-4 border border-gray-300 rounded-lg">
             <h2 className="font-semibold">
-              <a href="https://arxiv.org/abs/2312.05696" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">
+              <a href="https://arxiv.org/abs/2312.05696" target="_blank" rel="noopener noreferrer" className=" hover:underline">
                 GPT-4 and Safety Case Generation: An Exploratory Analysis
               </a>
             </h2>
@@ -30,7 +30,7 @@ export default function Page() {
           </div>
           <div className="p-4 border border-gray-300 rounded-lg">
             <h2 className="font-semibold">
-              <a href="https://www.sciencedirect.com/science/article/pii/S0950584924001319" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">
+              <a href="https://www.sciencedirect.com/science/article/pii/S0950584924001319" target="_blank" rel="noopener noreferrer" className=" hover:underline">
                 A PRISMA-driven systematic mapping study on system assurance weakeners
               </a>
             </h2>
@@ -38,7 +38,7 @@ export default function Page() {
           </div>
           <div className="p-4 border border-gray-300 rounded-lg">
             <h2 className="font-semibold">
-              <a href="https://www.sciencedirect.com/science/article/pii/S0957417424015203" target="_blank" rel="noopener noreferrer" className="text-black hover:underline">
+              <a href="https://www.sciencedirect.com/science/article/pii/S0957417424015203" target="_blank" rel="noopener noreferrer" className=" hover:underline">
                 Prompting GPT–4 to support automatic safety case generation
               </a>
             </h2>

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faGoogle } from '@fortawesome/free-brands-svg-icons';
-
+import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 export default function Page() {
   return (
     <section className="max-w-3xl mx-auto p-4">
@@ -33,20 +33,26 @@ export default function Page() {
       </section>
       
       <section className="mb-8">
-        <h2 className="font-medium text-xl mb-4">Education</h2>
-        <div className="prose prose-neutral dark:prose-invert">
-          <div className="mb-4">
-            <strong>Master of Computer Science, MSc</strong><br />
-            York University, Toronto, Canada<br />
-            <span className="text-sm text-gray-600 dark:text-gray-400">Sep 2022 - Apr 2024</span>
-          </div>
-          <div>
-            <strong>Bachelor of Computer Engineering, BSc</strong><br />
-            Shahid Beheshti University, Tehran, Iran<br />
-            <span className="text-sm text-gray-600 dark:text-gray-400">Sep 2016 - Feb 2021</span>
-          </div>
-        </div>
-      </section>
+            <h2 className="font-medium text-xl mb-4">Education</h2>
+            <div className="prose prose-neutral dark:prose-invert">
+              <div className="mb-4 flex items-start space-x-2">
+                <FontAwesomeIcon icon={faGraduationCap} className="h-5 w-5 mt-1 " />
+                <div>
+                  <strong>Master of Computer Science, MSc</strong><br />
+                  York University, Toronto, Canada<br />
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Sep 2022 - Apr 2024</span>
+                </div>
+              </div>
+              <div className="flex items-start space-x-2">
+                <FontAwesomeIcon icon={faGraduationCap} className="h-5 w-5 mt-1" />
+                <div>
+                  <strong>Bachelor of Computer Engineering, BSc</strong><br />
+                  Shahid Beheshti University, Tehran, Iran<br />
+                  <span className="text-sm text-gray-600 dark:text-gray-400">Sep 2016 - Feb 2021</span>
+                </div>
+              </div>
+            </div>
+          </section>
     </section>
   );
 }
